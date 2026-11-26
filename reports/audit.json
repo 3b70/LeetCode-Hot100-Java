@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-25",
+  "official_snapshot_sha256": "1697a71f9dc9786591d55fe2b7642cac991b1085f0ee8c789395ca20cfac2bdd",
+  "unique_problems": 100,
+  "chapter_files": 17,
+  "source_files": 100,
+  "compiled": 100,
+  "local_pass": 100,
+  "assertions": 5636,
+  "official_submissions": 0,
+  "optional_generated_assets_missing": [],
+  "errors": []
+}

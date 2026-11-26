@@ -1,0 +1,295 @@
+{
+  "engine": "Windows本机Chromium（Edge/Chrome）",
+  "physical_iphone_tested": false,
+  "served_under_subpath": "/site/",
+  "completed": true,
+  "checks": [
+    {
+      "name": "首页含100题目录",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "首页17专题导航",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "中文界面",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "搜索：206",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "搜索：两数之和",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "搜索：HashMap",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "搜索：递归",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Java代码高亮",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "中文注释独立配色",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "一键复制原始Java代码",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "浅色深色切换",
+      "passed": true,
+      "details": {
+        "before": "default",
+        "after": "slate"
+      }
+    },
+    {
+      "name": "下一题导航",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "窄屏320px：首页",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "body": 320,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏320px：1",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "body": 320,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏320px：51",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "body": 320,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏320px：72",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "body": 320,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏320px：295",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "body": 320,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "320px手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "320px关闭手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "窄屏390px：首页",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "body": 390,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏390px：1",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "body": 390,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏390px：51",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "body": 390,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏390px：72",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "body": 390,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏390px：295",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "body": 390,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "390px手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "390px关闭手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "手机触摸复制Java源码",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "手机长代码可横向滚动",
+      "passed": true,
+      "details": {
+        "moved": 70,
+        "width": 362,
+        "scroll": 632
+      }
+    },
+    {
+      "name": "手机中文搜索",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "窄屏430px：首页",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "body": 430,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏430px：1",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "body": 430,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏430px：51",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "body": 430,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏430px：72",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "body": 430,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "窄屏430px：295",
+      "passed": true,
+      "details": {
+        "width": 430,
+        "body": 430,
+        "codeScroll": true,
+        "missingImages": 0
+      }
+    },
+    {
+      "name": "430px手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "430px关闭手机菜单",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Windows双击HTML离线搜索",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "无外部运行网络请求",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "无页面JavaScript异常",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "screenshots": [
+    "reports/screenshots/desktop-home.png",
+    "reports/screenshots/desktop-dark-problem.png",
+    "reports/screenshots/mobile-code-390.png",
+    "reports/screenshots/mobile-home-390.png",
+    "reports/screenshots/mobile-search-390.png"
+  ],
+  "external_requests": [],
+  "console_errors": [],
+  "passed": true
+}

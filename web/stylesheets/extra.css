@@ -1,0 +1,45 @@
+/* 系统字体、无动画；移动端优先。 */
+:root { --reading-comment: #496d39; }
+*, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+[data-md-color-scheme="slate"] { --reading-comment: #acd69b; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif; }
+.md-typeset { font-size: .82rem; line-height: 1.85; }
+.md-typeset h1 { font-weight: 700; line-height: 1.4; margin-bottom: .8em; }
+.md-typeset h2 { font-weight: 650; line-height: 1.5; }
+.md-typeset code, .md-typeset pre { font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace; }
+.md-typeset pre > code { line-height: 1.7; font-size: .73rem; tab-size: 4; }
+.md-typeset .highlight :is(.c,.c1,.cm,.cs) { color: var(--reading-comment); font-style: normal; }
+.md-typeset p, .md-typeset li { overflow-wrap: anywhere; }
+.md-typeset table:not([class]) td { min-width: 0; }
+.md-typeset .md-typeset__table { display: block; max-width: 100%; padding: 0; }
+.md-typeset .md-typeset__scrollwrap { margin-inline: 0; overflow-x: auto; overscroll-behavior-x: contain; }
+.md-typeset img { max-width: 100%; height: auto; }
+.problem-pager { display: flex; gap: .75rem; justify-content: space-between; margin: 1.2rem 0; padding: .8rem 0; border-block: 1px solid var(--md-default-fg-color--lightest); }
+.problem-pager a { display: block; flex: 1; font-size: .72rem; overflow-wrap: anywhere; }
+.problem-pager a:last-child { text-align: right; }
+.problem-pager span { flex: 1; color: var(--md-default-fg-color--light); font-size: .72rem; }
+.learning-entry { padding: 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .4rem; margin: 1rem 0; }
+.learning-entry p:last-child { margin-bottom: 0; }
+.md-header__topic { font-weight: 600; }
+.md-top { min-height: 44px; }
+.md-clipboard, .md-code__button[data-md-type="copy"] { opacity: 1; }
+.md-code__nav { opacity: 1; }
+.md-code__button[data-md-type="copy"] { color: var(--md-default-fg-color); min-width: 44px; min-height: 44px; }
+@media (max-width: 600px) {
+  .md-typeset { font-size: .82rem; line-height: 1.9; }
+  .md-content__inner { margin-inline: .7rem; padding-top: .7rem; }
+  .md-typeset h1 { font-size: 1.6rem; }
+  .md-typeset h2 { font-size: 1.2rem; }
+  .md-typeset pre > code { white-space: pre; overflow-wrap: normal; word-break: normal; overflow-x: auto; max-width: 100%; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; font-size: .72rem; padding: 2.2rem .75rem .9rem; }
+  .md-typeset table:not([class]) { font-size: .72rem; }
+  .problem-pager { gap: .5rem; }
+  .md-typeset .highlight { margin-inline: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+@media print {
+  .md-header, .md-sidebar, .md-footer, .md-top, .problem-pager, .md-clipboard, .md-code__nav { display: none !important; }
+  .md-content { margin: 0; }
+  .md-typeset pre > code { white-space: pre-wrap; overflow-wrap: anywhere; }
+}

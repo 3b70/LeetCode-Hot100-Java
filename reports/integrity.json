@@ -1,0 +1,11 @@
+{
+  "problems": 100,
+  "unique": 100,
+  "chapters": 17,
+  "sources": 100,
+  "compiled": 100,
+  "local_pass": 100,
+  "assertions": 5636,
+  "official_pass": 0,
+  "errors": []
+}

@@ -1,0 +1,36 @@
+{
+  "file": "output\\pdf\\Hot100-Java-完整学习手册.pdf",
+  "pages": 304,
+  "bytes": 8603125,
+  "covered_problem_titles": 100,
+  "missing_titles": [],
+  "text_selectable": true,
+  "replacement_characters": 0,
+  "bookmarks": 1067,
+  "print_metrics": {
+    "missingImages": 0,
+    "overflowBlocks": 0
+  },
+  "sample_renders": [
+    "tmp\\pdfs\\page-001.png",
+    "tmp\\pdfs\\page-037.png",
+    "tmp\\pdfs\\page-038.png",
+    "tmp\\pdfs\\page-068.png",
+    "tmp\\pdfs\\page-069.png",
+    "tmp\\pdfs\\page-201.png",
+    "tmp\\pdfs\\page-202.png",
+    "tmp\\pdfs\\page-290.png",
+    "tmp\\pdfs\\page-291.png",
+    "tmp\\pdfs\\page-303.png",
+    "tmp\\pdfs\\page-304.png"
+  ],
+  "visual_review": "已人工查看最终渲染的代码、流程图和末页；抽查页中文正确、代码完整、无裁切。",
+  "limitations": "未逐页人工审阅；手机建议使用可缩放的PDF阅读器。",
+  "visually_reviewed_pages": [
+    38,
+    69,
+    202,
+    291,
+    304
+  ]
+}

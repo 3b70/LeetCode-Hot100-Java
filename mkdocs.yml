@@ -1,0 +1,71 @@
+site_name: Java Hot 100 学习手册
+site_url: https://3b70.github.io/LeetCode-Hot100-Java/
+site_description: 面向 Java 初学者的 100 道题解、Java 基础与算法学习手册
+site_author: Java Hot 100 学习资料
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+strict: true
+theme:
+  name: material
+  custom_dir: web/overrides
+  language: zh
+  font: false
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+plugins:
+  - search:
+      lang: zh
+      separator: '[\s\u200b\-_,，。；：、！？（）()\[\]{}]+'
+  - offline
+hooks:
+  - tools/site_hooks.py
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.details
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/search-input.js
+extra:
+  generator: false
+  polyfills:
+    - assets/iframe-worker-shim.js
+copyright: 学习资料 · 官方判题未提交 · 题单核对日 2026-11-25
+validation:
+  nav:
+    omitted_files: info
+  links:
+    anchors: warn

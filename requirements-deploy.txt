@@ -1,0 +1,5 @@
+# 云端仅构建已有Markdown，使用已存在PDF，不安装浏览器或PDF生成模型。
+mkdocs==1.6.1
+mkdocs-material==9.8.2
+jieba==0.42.1
+pypdf==7.1.1

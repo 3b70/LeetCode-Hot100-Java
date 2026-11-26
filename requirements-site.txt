@@ -1,0 +1,6 @@
+# 主要构建依赖；完整解析版本见 requirements-site-lock.txt。
+mkdocs-material==9.8.2
+jieba==0.42.1
+playwright==1.65.2
+pypdf==7.1.1
+pymupdf==2.1

@@ -25,3 +25,5 @@ reports/deployment-*.json
 progress.md
 site-nav.json
 sources/site-manifest.json
+
+reports/browser-check-public.json

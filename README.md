@@ -5,10 +5,10 @@
 <!-- GITHUB_PAGES_DEPLOYMENT -->
 ## GitHub Pages部署
 
-当前阶段：本地配置准备完成，等待首次公开发布确认，尚未公开上线。
+当前状态：已成功公开发布。GitHub Actions的build与deploy已成功，公网HTTPS首页、专题、题目及资源已实际验证。
 
-- 拟用仓库：https://github.com/3b70/LeetCode-Hot100-Java
-- 拟用网址：https://3b70.github.io/LeetCode-Hot100-Java/
+- 公开仓库：https://github.com/3b70/LeetCode-Hot100-Java
+- 学习网站：https://3b70.github.io/LeetCode-Hot100-Java/
 - 唯一发布机制：main → GitHub Actions → Pages；不并行使用gh-deploy。
 - 本地检查：`.\.venv\Scripts\python.exe tools/prepare_pages.py`，不重生成题解、Java或PDF。
 - 操作及故障排查见[手机与电脑阅读说明](手机与电脑阅读说明.md)，第三方来源见[许可说明](THIRD_PARTY_NOTICES.md)。
@@ -23,7 +23,7 @@
 - [完整PDF](output/pdf/Hot100-Java-完整学习手册.pdf)：适合保存到iPhone离线阅读。
 - 本机网站ZIP包：output/hot100-website.zip（不纳入Git仓库）：解压整个目录后打开index.html。
 
-网站与PDF生成方式、依赖清单和验证范围见阅读说明。本次没有推送或公开部署。
+网站与PDF生成方式、依赖清单和验证范围见阅读说明。网站已通过GitHub Actions公开发布，固定网址见本页顶部。
 
 ## 从哪里开始
 
